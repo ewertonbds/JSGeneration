@@ -9,7 +9,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
-    .setTitle('Blog Pessoal de Ewertpm ')
+    .setTitle('Blog Pessoal de Ewerton ')
     .setDescription('Projeto Blog Pessoal feito na turma js12 da Generation Brasil')
      
   .setContact("Generation Brasil","http://www.generationbrasil.online","https://github.com/ewertonbds")
